@@ -1,0 +1,19 @@
+replicaCount: 1
+
+labels:
+  app: hello
+
+image:
+  repository: ahmedaidev/hello
+  pullPolicy: IfNotPresent
+
+deployment:
+  name: hello-depl
+
+service:
+  type: LoadBalancer
+  name: hello-svc
+  port: 3000
+
+container:
+  port: 3000

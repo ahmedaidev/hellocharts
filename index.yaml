@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hellochart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-29T11:42:20.722558611+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 560e07ae18aedcba1df7c97dd8c357c35efe892cf815a0002f4c45114d258e5c
+    name: hellochart
+    type: application
+    urls:
+    - https://ahmedaidev.github.com/hellocharts/hellochart-1.0.1.tgz
+    version: 1.0.1
+generated: "2022-03-29T11:42:20.72144024+02:00"
